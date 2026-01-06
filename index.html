@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arun Kumar Ray | YCSAS Internship</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Arun Kumar Ray</h2>
+  <p>YCSAS Intern | Computer Science Student</p>
+  <button onclick="toggleMode()">🌙 Dark Mode</button>
+</header>
+
+<section class="menu">
+  <button onclick="showSection('home')">Home</button>
+  <button onclick="showSection('about')">About Me</button>
+  <button onclick="showSection('skills')">Skills</button>
+  <button onclick="showSection('internship')">Internship</button>
+  <button onclick="showSection('projects')">Projects</button>
+  <button onclick="showSection('contact')">Contact</button>
+</section>
+<section id="home" class="content">
+  <h3>Welcome</h3>
+  <p>
+    Welcome to my personal portfolio website created as part of the YCSAS Internship Final Task.
+  </p>
+</section>
+<section id="about" class="content">
+  <h3>About Me</h3>
+  <p>
+    I am a Computer Science student. My goal is to become a skilled software
+    developer. I joined the YCSAS Internship to gain real-world experience and
+    improve my technical skills.
+  </p>
+</section>
+
+<section id="skills" class="content">
+  <h3>Skills</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Git & GitHub</li>
+    <li>Basic React</li>
+  </ul>
+</section>
+
+<section id="internship" class="content">
+  <h3>YCSAS Internship</h3>
+  <p><b>Internship Name:</b> YCSAS Internship Program</p>
+  <p><b>Topics Learned:</b> Web Development, DOM, Git, JavaScript</p>
+  <p><b>Experience:</b> Built projects and learned professional workflow.</p>
+</section>
+
+<section id="projects" class="content">
+  <h3>Projects</h3>
+  <ul>
+    <li>Portfolio Website</li> <a class="d" href="index.html"> click here</a>
+    <li>Todo List (DOM Manipulation)</li> <a class="d" href="Todo.html"> click here</a>
+    <li>Form Validation</li> </li> <a class="d" href="Regis.html"> click here</a>
+     <li>Web-design</li> </li> <a class="d" href="web.html"> click here</a>
+  </ul>
+</section>
+
+<section id="contact" class="content">
+  <h3>Contact</h3>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <button type="submit">Send</button>
+  </form>
+  <p>Email: arunkumarray.ccp@gmail.com</p>
+  <p>GitHub: https://github.com/arunkumarrayccp-prog</p>
+</section>
+
+<footer>
+  © 2025 Arun Kumar Ray | YCSAS Internship
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
